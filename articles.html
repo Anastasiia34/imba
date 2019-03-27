@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Статьи</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Продукция</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Польза</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Доставка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Язык
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Русский</a>
+                                <a class="dropdown-item" href="#">English</a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+                <a class="nav-link cart" href="#"><object data="img/basket.svg" type="image/svg+xml"></object><span
+                        class="badge badge-pill bold">1</span></a>
+            </div>
+        </nav>
+        <nav class="navbar navbar-dark articles">
+            <div class="container">
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Категории
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="nav-link active" href="#">Статьи</a>
+                        <a class="nav-link" href="#">О продукции</a>
+                        <a class="nav-link" href="#">Интервью</a>
+                        <a class="nav-link" href="#">Разное</a>
+                        <a class="nav-link" href="#">Турниры</a>
+                        <a class="nav-link" href="#">Игры</a>
+                    </div>
+                </div>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Поиск..." aria-label="Search">
+                </form>
+                <img src="img/search.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main id="articles">
+        <section class="popular">
+            <div class="container">
+                <h2 class="title">Популярное</h2>
+                <div class="row">
+                    <div class="main-pic pic">
+                        <span class="badge">Статьи</span>
+                        <img src="img/pic1.png" alt="">
+                        <div class="wrapper">
+                            <h2>Расписание и результаты <br> по DOTA 2</h2>
+                            <div class="like row">
+                                <img src="img/like.png" alt="">
+                                <p>47</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pics">
+                        <div class="pic">
+                            <span class="badge">Статьи</span>
+                            <img src="img/pic2.png" alt="">
+                            <div class="wrapper">
+                                <h2>Киберспорт: игровая культура современного мира.</h2>
+                                <div class="like row">
+                                    <img src="img/like.png" alt="">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pic">
+                            <span class="badge">Статьи</span>
+                            <img src="img/pic3.png" alt="">
+                            <div class="wrapper">
+                                <h2>Ростовский чемпион мира по World of Tanks: о заработках и нагрузках в киберспорте</h2>
+                                <div class="like row">
+                                    <img src="img/like.png" alt="">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="all-articles">
+            <div class="container">
+                <h2>Все статьи</h2>
+                <div class="articles-carousel d-flex">
+                    <div class="item">
+                        <img src="img/article1.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">11 часов назад</p>
+                            </div>
+                            <h3>Почему киберспорт на самом деле спорт</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article2.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>Что случилось в предварительной стадии IEM Katowice Major</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article3.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>В единственном киберспортивном ситкоме принимают участие сценаристы "Рика и Морти"</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article4.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>«Я решил, что буду играть до тех пор, пока внутри меня горит огонь». N0tail о роли
+                                «Доты» в его жизни</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article1.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">11 часов назад</p>
+                            </div>
+                            <h3>Почему киберспорт на самом деле спорт</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article2.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>Что случилось в предварительной стадии IEM Katowice Major</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article3.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>В единственном киберспортивном ситкоме принимают участие сценаристы "Рика и Морти"</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article4.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>«Я решил, что буду играть до тех пор, пока внутри меня горит огонь». N0tail о роли
+                                «Доты» в его жизни</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article1.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">11 часов назад</p>
+                            </div>
+                            <h3>Почему киберспорт на самом деле спорт</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article2.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>Что случилось в предварительной стадии IEM Katowice Major</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article3.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>В единственном киберспортивном ситкоме принимают участие сценаристы "Рика и Морти"</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article4.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>«Я решил, что буду играть до тех пор, пока внутри меня горит огонь». N0tail о роли
+                                «Доты» в его жизни</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article1.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">11 часов назад</p>
+                            </div>
+                            <h3>Почему киберспорт на самом деле спорт</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article2.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>Что случилось в предварительной стадии IEM Katowice Major</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article3.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>В единственном киберспортивном ситкоме принимают участие сценаристы "Рика и Морти"</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/article4.png" alt="">
+                        <div class="bottom">
+                            <div class="row top">
+                                <span class="badge">Статьи</span>
+                                <p class="time">12.02.19</p>
+                            </div>
+                            <h3>«Я решил, что буду играть до тех пор, пока внутри меня горит огонь». N0tail о роли
+                                «Доты» в его жизни</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="to-the-last">
+                    <p>&rsaquo; <span>|</span></p>
+                </button>
+                <a href="#" class="show-all">Посмотреть все <button>
+                        <p>&rsaquo;</p>
+                    </button></a>
+            </div>
+        </section>
+        <section class="recommend">
+            <div class="container">
+                <h2>Рекомендуем</h2>
+                <div class="carousel">
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="name">
+                            <h4>Апельсин-корица</h4>
+                            <p>Яркий - пряный</p>
+                        </div>
+                        <span class="sale">-25%</span>
+                        <div class="img d-flex align-items-center justify-content-end">
+                            <img src="img/box.jpg" alt="">
+                            <div class="badges">
+                                <span class="badge">15 шт</span>
+                                <span class="badge">135 гр</span>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex justify-content-between align-items-center">
+                            <p class="old-price">1200 ₽</p>
+                            <p class="price">600 ₽</p>
+                            <button class="lights buy">В корзину</button>
+                            <div class="calc">
+                                <div class="minus">-</div>
+                                <input type="number" class="plus-minus" value="1">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-6 contacts">
+                    <p class="bold">КОНТАКТЫ</p>
+                    <a href="tel:+7(495)125-10-35">+7(495)125-10-35</a>
+                    <a href="mailto:imba@mail.com">imba@mail.com</a>
+                </div>
+                <div class="col-lg-4 payment">
+                    <p class="bold">способы оплаты</p>
+                    <div>
+                        <img src="img/visa.png" alt="">
+                        <img src="img/mir.png" alt="">
+                        <img src="img/mcard.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6 soc">
+                    <p class="bold">мы в социальных сетях</p>
+                    <div class="socials">
+                        <a href="#">
+                            <object data="img/twitter.svg" type="image/svg+xml"></object>
+                        </a>
+                        <a href="#">
+                            <object data="img/instagram.svg" type="image/svg+xml"></object>
+                        </a>
+                        <a href="#">
+                            <object data="img/facebook.svg" type="image/svg+xml"></object>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <button class="arrow" name="stage2">Получить <img src="../img/arrow.svg" alt=""></button> -->
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
